@@ -36,7 +36,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #two,
 #one {
   height: 33vw;
-  width: 33vw;
 }
 
 #three {
@@ -52,7 +51,14 @@ order: 1;
 }
 
 @media screen and (min-width: 600px) {
-
+#one, #two{
+  flex: 50%;
+  height: 50vw;
+}
+#three{
+  flex: 100%;
+  height: 50vw;
+}
 }
 
 @media screen and (min-width: 800px) {
