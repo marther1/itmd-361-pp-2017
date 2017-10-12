@@ -65,7 +65,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   #one,
   #two,
   #three {
-    flex: 100%;
-    height: 100vw;
+    flex: 1 1 auto;
+    height: 33.33vw;
   }
 }
