@@ -28,13 +28,18 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ==== LAYOUT STYLES ==== */
 #content {
+<<<<<<< HEAD
   display: flex;
   flex-flow: wrap;
+=======
+
+>>>>>>> 3f063038dd3df80da1d56bacb67030096ad6a20a
 }
 
 #three,
 #two,
 #one {
+<<<<<<< HEAD
   height: 33vw;
 }
 
@@ -68,4 +73,27 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     flex: 1 1 auto;
     height: 33.33vw;
   }
+=======
+
+}
+
+#three {
+
+}
+
+#two {
+
+}
+
+#one {
+
+}
+
+@media screen and (min-width: 600px) {
+
+}
+
+@media screen and (min-width: 800px) {
+
+>>>>>>> 3f063038dd3df80da1d56bacb67030096ad6a20a
 }
