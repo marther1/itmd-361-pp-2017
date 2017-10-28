@@ -50,3 +50,9 @@ function addTwo(x) {
 
 console.log(addTwo(4)); // 6
 console.log(x); // should be 5 if you corrected the double() function above
+
+// x is local to this function because it is being passed as a function parameter.
+// by having x as a function parameter it overrides the value of the global variable.
+// therefore, x will not carry the value of the global variable declared on line 5.
+// resulting in outputting the local value of var x.
+// but, when not calling the function (addtwo) x will output as a global value.
