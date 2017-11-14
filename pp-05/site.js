@@ -8,4 +8,9 @@ $(document).ready(function(){
   $("#ringdoorbell").on("click", function(){
     ringDoorbell();
   });
+  $(document).on("keypress", function(event) {
+    if (event.key === "d") {
+      ringDoorbell();
+    }
+  });
 });
