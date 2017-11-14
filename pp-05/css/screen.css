@@ -17,7 +17,9 @@ img {
 body {
   padding: 10%;
 }
-
+button {
+  cursor: pointer;
+}
 /* ===== LAYOUT STYLES ===== */
 
 
