@@ -5,3 +5,6 @@ function ringDoorbell() {
 $(document).ready(function(){
 $("#doorbell").remove();
 })
+ringdoorbell.addEventListener("click", function(){
+  ringDoorbell();
+})
